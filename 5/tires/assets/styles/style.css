@@ -1,0 +1,491 @@
+
+nav { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: aliceblue;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A1E29;
+}
+
+.left-menu {
+    display: flex;
+}
+
+.left-menu-items {
+    width: 150px;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-menu {
+    display: flex;
+}
+
+.icons,
+#personal-cabinet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#personal-cabinet {
+    width: 180px;
+    height: 79px;
+
+}
+.icons {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+#car {
+    width: 100%;
+}
+#cartext {
+    position: absolute;
+    left: 47.66%;
+    right: 5.47%;
+    top: 16.67%;
+    bottom: 58.33%;
+
+    width: fit-content;
+    height: 56px;
+    padding: 5px;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color: aliceblue;
+    
+    background-color: #FF7E00;
+}
+
+#cartext2 {
+    position: absolute;
+    left: 47.66%;
+    right: 5.47%;
+    top: 24.67%;
+    bottom: 58.33%;
+
+    width: fit-content;
+    height: 46px;
+    padding: 5px;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color: aliceblue;
+    
+    background-color: #FF7E00;
+}
+
+#more {
+    width: 123px;
+    height: 40px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    position: absolute;
+    left: 47.42%;
+    right: 42.97%;
+    top: 45.83%;
+    bottom: 43.75%;
+
+    color: #FF7E00;
+}
+header div{
+    position: absolute;
+    left: 4.33%;
+    right: 4.33%;
+    top: 64.7%;
+    bottom: -19.4%;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    
+    background: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.choose {
+    padding: 0;
+    position: absolute;
+    top: 57%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 240px;
+    width: 1280px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.choose-text {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.link:hover {
+    color:#FF7E00;
+}
+#options {
+    width: 1230px;
+    height: 137px;
+    top: 101;
+    margin-top: 110px;
+}
+.find {
+    width: 110px;
+    border: solid #d1cece;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 80px;
+    color: #1A1E29;
+}
+.find:active {
+    color: #1A1E29;
+}
+#submit {
+    width: 232px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #FF7E00;
+    border: none;
+}
+
+.popular-service {
+    text-align: center;
+
+}
+
+.popular-service-text {
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.help {
+    height: 150px;
+}
+
+#flex-service {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.service {
+    border: 1px solid #E5E5E5;
+
+    width: 392px;
+    height: 392px;
+}
+
+.service-head {
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.rectangle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+    bottom: 40px;
+    height: 75px;
+    width: 328px;
+    border-radius: 8px;
+}
+
+.rectangle-text {
+    color: #6A6A6A;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#submit-service {
+    width: 232px;
+    height: 40px;
+    color: #FF7E00;
+    background-color: #ffffff;
+    border: 1px solid #EFD8C3;
+}
+
+/* Популярные шины*/
+
+.popular-tires {
+    text-align: center;
+
+}
+
+.popular-tires-text {
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.help {
+    height: 150px;
+}
+
+#flex-tires {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.tires {
+    border: 1px solid #E5E5E5;
+
+    width: 288px;
+    height: 568px;
+    border-radius: 2px;
+}
+
+.tires-head {
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 0;
+
+}
+
+.rectangle-tires {
+    padding-left: 30px;
+}
+
+.sun-check {
+    text-align: left;
+}
+
+.rectangle-tires-text {
+    color: #6A6A6A;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 500px;
+}
+
+
+
+.rating {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tire-button {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.tire-button2 {
+    height: 103px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.submit-choise{
+    width: 168px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #FF7E00;
+    border: none;
+    border-radius: 2px;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid #FF7E00;
+    border-radius: 2px;
+    margin-left: 20px;
+
+}
+
+#submit-tires {
+    width: 232px;
+    height: 40px;
+    margin: 50px;
+    color: #FF7E00;
+    background-color: #ffffff;
+    border: 1px solid #EFD8C3;
+}
+
+/* Популярные диски */
+
+.popular-disk {
+    text-align: center;
+
+}
+
+.popular-disk-text {
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.help {
+    height: 150px;
+}
+
+#flex-disk {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.disk {
+    border: 1px solid #E5E5E5;
+
+    width: 288px;
+    height: 568px;
+    border-radius: 2px;
+}
+
+.disk-head {
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 0;
+
+}
+
+.rectangle-disk {
+    padding-left: 30px;
+}
+
+.sun-check {
+    text-align: left;
+}
+
+.rectangle-disk-text {
+    color: #6A6A6A;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 500px;
+}
+
+
+
+.rating {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.disk-button {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.submit-choise{
+    width: 168px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #FF7E00;
+    border: none;
+    border-radius: 2px;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid #FF7E00;
+    border-radius: 2px;
+    margin-left: 20px;
+
+}
+
+#submit-disk {
+    width: 232px;
+    height: 40px;
+    margin: 50px;
+    color: #FF7E00;
+    background-color: #ffffff;
+    border: 1px solid #EFD8C3;
+}

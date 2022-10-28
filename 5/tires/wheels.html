@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tire shop</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <section class="left-menu">
+                <section class="left-menu-items">
+                    <span>Товары</span>
+                    <img src="/assets/header/arrow.svg" alt="arrow">
+                </section>
+                <section class="left-menu-items">
+                    <span>Услуги</span>
+                    <img src="/assets/header/arrow.svg" alt="arrow">
+                </section>
+                <section class="left-menu-items">
+                    <span>Компания</span>
+                    <img src="/assets/header/arrow.svg" alt="arrow">
+                </section>
+            </section>
+            
+            <section id="logo">
+                <img src="/assets/header/logo.svg" alt="logo">
+            </section>
+
+            <section class="right-menu">
+                <section class="icons">
+                    <img src="/assets/header/lupa.png" alt="lupa">
+                </section>
+                <section class="right-menu-items" id="personal-cabinet">
+                    <span>Личный кабинет</span>
+                    <img src="/assets/header/arrow.svg" alt="arrow">
+                </section>
+                <section class="icons">
+                    <img src="/assets/header/heart.png" alt="heart">
+                </section>
+                <section class="icons">
+                    <img src="/assets/header/basket.png" alt="basket">
+                </section>
+            </section>
+
+        </div>
+    </nav>
+    <header>    
+        <section class="header">
+            <img id="car" src="assets/header/car.png" alt="car">
+            <p id="cartext" >Шиномонтаж и доставка </p>
+            <p id="cartext2">бесплатно</p>   
+            <p><input id="more" type="button" value="Подробнее"></p> 
+        </section>
+    </header>
+    <main>
+        <menu class="choose">
+                <div class="choose-text">Подберём&nbsp<span class="link"> шины&nbsp</span> или&nbsp <span class="link">диски&nbsp</span> по марке автомобиля или <span class="link">&nbspпараметрам товара</span></div>
+                <p class="form">
+                    <input type="select" class="find" value="Производитель">
+                    <input type="select" class="find" value="Модель">
+                    <input type="select" class="find" value="Поколение">
+                    <input type="select" class="find" value="Модификация">
+                    <input type="select" class="find" value="Кузов">
+                </p>
+                <p>
+                    <input id="submit" type="button" value="Подобрать">
+                </p>
+        </menu>
+        <div class="help"></div>
+
+        <section class="popular-service";>
+            <h2 class="popular-service-text">Популярные услуги</h2>
+
+            <section id="flex-service">
+                <div class="service">
+                    <img src="/assets/service/1.png" alt="man-with-wheel">
+                    <div class="rectangle">
+                        <div>
+                        <p class="service-head">Шиномонтаж</p>
+                        </div>
+                        <div class="rectangle-text">
+                            <img src="/assets/service/clock.png" alt="clock"> Ежедневно с 9:00 до 21:00, без перерывов <br>
+                            <img src="/assets/service/price.png" alt="price">   от 500 ₽
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="service">
+                    <img src="/assets/service/2.png" alt="hands-with-wheel">
+                    <div class="rectangle">
+                        <div>
+                        <p class="service-head">Ремонт и правка дисков</p>
+                        </div>
+                        <div class="rectangle-text">
+                            <img src="/assets/service/clock.png" alt="clock"> Ежедневно с 9:00 до 21:00, без перерывов <br>
+                            <img src="/assets/service/price.png" alt="price">   от 800 ₽
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="service">
+                    <img src="/assets/service/3.png" alt="tires">
+                    <div class="rectangle">
+                        <div>
+                        <p class="service-head">Сезонное хранение шин</p>
+                        </div>
+                        <div class="rectangle-text">
+                            <img src="/assets/service/clock.png" alt="clock"> Ежедневно с 9:00 до 21:00, без перерывов <br>
+                            <img src="/assets/service/price.png" alt="price">  Бесплатно
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <p>
+                <input id="submit-service" type="button" value="Посмотреть все услуги">
+            </p>
+        </section>
+<!--Популярные шины-->
+        <section class="popular-tires";>
+            <h2 class="popular-tires-text">Популярные шины</h2>
+
+            <section id="flex-tires">
+                <div class="tires">
+                    <img src="/assets/tires/tire.png" alt="tire">
+                    <div class="rectangle-tires">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="tires-head">Goodyear Vector 4Seasons</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-tires-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="tire-button">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tires">
+                    <img src="/assets/tires/tire.png" alt="tire">
+                    <div class="rectangle-tires">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="tires-head">Goodyear Vector 4Seasons SUV Gen-2</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-tires-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="tire-button">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="tires">
+                    <img src="/assets/tires/tire.png" alt="tire">
+                    <div class="rectangle-tires">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="tires-head">Cordiant Snow Cross 2</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-tires-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="tire-button2">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="tires">
+                    <img src="/assets/tires/tire.png" alt="tire">
+                    <div class="rectangle-tires">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="tires-head">Pirelli PZero</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-tires-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="tire-button2">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <p>
+                <input id="submit-tires" type="button" value="Посмотреть все шины">
+            </p>
+        </section>
+
+<!--Популярные диски-->
+
+        <section class="popular-disk";>
+            <h2 class="popular-disk-text">Популярные диски</h2>
+
+            <section id="flex-disk">
+                <div class="disk">
+                    <img src="/assets/disk/d1.png" alt="disk">
+                    <div class="rectangle-disk">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="disk-head">Колесный диск Tech Line</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-disk-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="disk-button">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="disk">
+                    <img src="/assets/disk/d2.png" alt="disk">
+                    <div class="rectangle-disk">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="disk-head">Колесный диск Tech Line</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-disk-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="disk-button">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="disk">
+                    <img src="/assets/disk/d3.png" alt="disk">
+                    <div class="rectangle-disk">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="disk-head">Колесный диск Tech Line</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-disk-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="disk-button">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="disk">
+                    <img src="/assets/disk/d4.png" alt="disk">
+                    <div class="rectangle-disk">
+                        <div class="rating">
+                            <img src="/assets/tires/comment.png" alt="commenticon">
+                            <img src="/assets/tires/2.png" alt="2">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star.png" alt="star">
+                            <img src="/assets/tires/star-half.png" alt="half-star">
+                        </div>
+                        <div>
+                        <p class="disk-head">Колесный диск Tech Line</p>
+                        </div>
+                        <div class="sun-check">
+                            <img src="assets/tires/sun.png" alt="sun">
+                            <img src="assets/tires/check.png" alt="check">
+                        </div>
+                        <div class="rectangle-disk-text">
+                            В наличии: 14 шт.
+                        </div>
+                        <div class="disk-button">
+                            <p>
+                                <input class="submit-choise" type="button" value="5 600">
+                            </p>
+                            <p>
+                                <button class="heart" type="button" value=""><img src="assets/tires/heart.png" alt="heart"></button>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <p>
+                <input id="submit-disk" type="button" value="Посмотреть все диски">
+            </p>
+        </section>
+    </main>  
+    
+</body>   
+</html>
