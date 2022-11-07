@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid4</title>
+    <style>
+        .header {
+            background-color: brown;
+            grid-area: header;
+        }
+
+        .sidebar {
+            background-color: blue;
+            grid-area: sidebar;
+        }
+
+        .main {
+            background-color: blueviolet;
+            grid-area: main;
+        }
+
+        .footer {
+            background-color: green;
+            grid-area: footer;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 10% 1fr 10%;
+            height: 100vh;
+            grid-template-areas: 
+                "header header header header"
+                "sidebar main main main"
+                "footer footer footer footer";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">header</header>
+        <aside class="sidebar">sidebar</aside>
+        <main class="main">main</main>
+        <footer class="footer">footer</footer>
+    </div>
+</body>
+</html>
