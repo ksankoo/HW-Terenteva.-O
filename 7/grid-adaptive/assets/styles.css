@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(6, 200px);
+    
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.cell {
+    border: 5px solid white;
+}
+
+.cell-1 {
+    color: white;
+    background-color: #ACF4B6;
+}
+
+.cell-2 {
+    color: white;
+    background-color: #FFE975;
+}
+
+.cell-3 {
+    color: white;
+    background-color: #5EFFFA;
+}
+
+.cell-4 {
+    color: white;
+    background-color: #E6B4FD;
+}
+
+.cell-5 {
+    color: white;
+    background-color: #8DFECD;
+}
+
+.cell-6 {
+    color: white;
+    background-color: #FD9A5C;
+}
+
+div > img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}

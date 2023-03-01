@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <style>
+        .header {
+        background-color: #b5fad4;
+        grid-area: header;
+        }
+
+        .sidebar {
+            background: #c2d2f5;
+            grid-area: sidebar;
+        }
+
+        .main {
+            background: #e9c886;
+            grid-area: main;
+        }
+
+        @media screen and (min-width: 600px) {
+            .footer {
+                background: indianred;
+                grid-area: footer;
+            }
+
+            .container {
+                display: grid;
+                height: 100vh;
+                width: 100vw;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 25% 1fr 25%;
+                grid-template-areas: 
+                    "header header header header"
+                    "sidebar main main main"
+                    "footer footer footer footer";
+            }
+        }
+
+        @media screen and (min-width: 400px) and (max-width: 599px) {
+            .footer {
+                display: none;
+            }
+
+            .container {
+                display: grid;
+                height: 100vh;
+                width: 100vw;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 25% 1fr;
+                grid-template-areas: 
+                    "header header"
+                    "sidebar main";
+            }
+        }
+
+        @media screen and (max-width: 399px) {
+            .footer {
+                display: none;
+            }
+
+            .header {
+                height: 33vh;
+            }
+
+            .sidebar {
+                height: 33vh;
+            }
+
+            .main {
+                height: 33vh;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header class="header">header
+        </header>
+        <aside class="sidebar">sidebar</aside>
+        <main class="main">main
+        </main>
+        <footer class="footer">footer</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <style>
+        .header {
+            background-color: #8686E9;
+            grid-area: header;
+        }
+
+        .sidebar {
+            background: #DDE986;
+            grid-area: sidebar;
+        }
+
+        .main {
+            background: #88E986;
+            grid-area: main;
+        }
+
+        .footer {
+            background: #E9C886;
+            grid-area: footer;
+        }
+
+        .container {
+            display: grid;
+            height: 100vh;
+            width: 100vw;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 15% 1fr 15%;
+            grid-template-areas: 
+                "header header header header"
+                "sidebar main main main"
+                "footer footer footer footer";
+        }
+
+        .nav-item {
+            padding: 5px;
+            font-size: 2em;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: flex-end;
+            width: 95%;
+        }
+
+        .pict {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .pict-container {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">header
+            <nav class="menu">
+                <span class="nav-item">menu1</span>
+                <span class="nav-item">menu2</span>
+                <span class="nav-item">menu3</span>
+            </nav>
+        </header>
+        <aside class="sidebar">sidebar</aside>
+        <main class="main">content
+            <div class="pict-container">
+                <img class="pict" src="/doggow.jpg" alt="">
+            </div>
+        </main>
+        <footer class="footer">footer</footer>
+    </div>
+</body>
+</html>

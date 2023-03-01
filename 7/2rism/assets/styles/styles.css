@@ -1,0 +1,491 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+.header {
+    height: auto;
+    background-image: url("/2rism/assets/images/header/1block-background.png");
+    background-size: cover;
+    border-radius: 0px 0px 54px 54px;
+}
+
+.header-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.header-menu_logo,
+.header-menu_items,
+.header-menu_user {
+    margin-top: 30px;
+}
+
+.header-menu_items {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+.header-menu_items_home {
+    font-weight: 400;
+}
+
+.header-menu_item {
+    margin-right: 3.8vw;
+}
+
+.header-title-button {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.header-title {
+    margin-top: 7vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.header-button {
+    background-color: #7B61FF;
+    border: none;
+    border-radius: 12px;
+    width: 273px;
+    height: 72px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.choose-panel {
+    margin-top: 8vw;
+    padding-bottom: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+
+    background-color: white;
+    border-radius: 12px;
+    width: 59.4vw;
+    height: 4.6vw;
+}
+
+.choose-board-item {
+    display: flex;
+    align-items: center;
+}
+
+.choose-board-item-icon {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.choose-board-item-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.choose-board-item-name {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.choose-board-item-select {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.popular_destinations {
+    margin-left: 14.1vw;
+    margin-top: 120px;
+    width: 71.8vw;
+}
+
+.popular_destinations_title {
+    margin-bottom: 64px;
+
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+}
+
+.popular_destinations_options {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.popular_destinations_item {
+    display: grid;
+    gap: 5px;
+}
+
+.popular_destinations_img {
+    width: 10.5vw;
+}
+
+.popular_destinations_name {
+    color: #161414;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+}
+
+.popular_destinations_location {
+    color: #979797;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.hotels_restaurants {
+    margin-left: 14.1vw;
+    margin-top: 120px;
+    width: 71.8vw;
+}
+
+.hotels_restaurants_options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.hotels_restaurants_title {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 64px;
+
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+}
+
+.hotels_restaurants_title_viewall {
+    height: min-content;
+}
+
+.hotels_restaurants_item {
+    display: grid;
+    gap: 5px;
+}
+
+.hotels_restaurants_img {
+    width: 16.7vw;
+}
+
+.hotels_restaurants_name {
+    color: #161414;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hotels_restaurants_location {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+
+    color: #979797;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.hotels_restaurants_location_pin {
+    padding-right: 5px;
+}
+
+.hotels_restaurants_location_stars {
+    height: min-content;
+    text-align: end;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .popular_destinations_options {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .popular_destinations_img {
+        width: max-content;
+    }
+
+    .hotels_restaurants_options {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .hotels_restaurants_img {
+        width: max-content;
+    }
+
+    .hotels_restaurants_location {
+        width: 100%;
+    }
+
+    .hotels_restaurants_location_stars {
+        height: min-content;
+        text-align: end;
+    }
+
+    .hotels_restaurants_item {
+        display: grid;
+        gap: 5px;
+        width: max-content;
+    }
+
+    .header {
+        height: 50vw;
+        background-image: url("/2rism/assets/images/header/1block-background-medium.png");
+        background-size: cover;
+        border-radius: 0px 0px 54px 54px;
+    }
+
+    .header-title-button {
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 32px;
+    }
+    
+    .header-title {
+        margin-top: 7vw;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 62px;
+    }
+    
+    .header-button {
+        background-color: #7B61FF;
+        border: none;
+        border-radius: 12px;
+        width: 223px;
+        height: 59px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .choose-board {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px;
+    
+        background-color: white;
+        border-radius: 12px;
+        width: 59.4vw;
+        height: 4.6vw;
+    }
+
+    .choose-board-item-name {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .choose-board-item-select {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        height: 50vw;
+        background-image: url("/2rism/assets/images/header/1block-background-medium.png");
+        background-size: cover;
+        border-radius: 0px 0px 54px 54px;
+    }
+
+    .header-title-button {
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 32px;
+    }
+    
+    .header-title {
+        margin-top: 7vw;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 62px;
+    }
+    
+    .header-button {
+        background-color: #7B61FF;
+        border: none;
+        border-radius: 12px;
+        width: 223px;
+        height: 59px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .choose-board {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px;
+    
+        background-color: white;
+        border-radius: 12px;
+        width: 59.4vw;
+        height: 4.6vw;
+    }
+
+    .choose-board-item-name {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .choose-board-item-select {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .choose-board {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+
+        background-color: white;
+        border-radius: 12px;
+        width: 59.4vw;
+        height: 4.6vw;
+    }
+
+    .popular_destinations_options {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .popular_destinations_img {
+        width: max-content;
+    }
+
+    .hotels_restaurants_options {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .hotels_restaurants_img {
+        width: max-content;
+    }
+
+    .hotels_restaurants_location {
+        width: 100%;
+    }
+
+    .hotels_restaurants_location_stars {
+        height: min-content;
+        text-align: end;
+    }
+
+    .hotels_restaurants_item {
+        display: grid;
+        gap: 5px;
+        width: max-content;
+    }
+}
