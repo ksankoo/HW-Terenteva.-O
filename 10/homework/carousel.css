@@ -1,0 +1,16 @@
+.image {
+    max-height: 75vh;
+}
+
+body {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+}
