@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="typeMe" type="number"><br>
+    <input id="readMe" readonly type="text"><br>
+    <button onclick="square()" class="button">Квадрат</button>
+
+    <script>
+        let typeMe = document.querySelector('#typeMe');
+        let readMe = document.querySelector('#readMe');
+        let button = document.querySelector('.button');
+        
+        
+        function square() {
+            let typeMeValue = typeMe.value;
+            let squareMe = typeMeValue ** 2;
+            readMe.setAttribute('value', squareMe);
+        };
+        
+    </script>
+</body>
+</html>
