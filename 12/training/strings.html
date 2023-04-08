@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let test = "Мы компания \"Google\"";
+
+        console.log(test);
+
+        let position = test.indexOf("Google");
+
+        console.log(position);
+
+        let sliced = test.slice(position, -1);
+
+        console.log(sliced);
+
+        let apple = test.replace("Google", "Apple");
+
+        console.log(apple);
+
+        let message = "Привет, username!";
+        let name = "Оксана";
+        let result = message.replace("username", name);
+        console.log(result);
+
+        let big = name.toUpperCase();
+        console.log(big);
+
+        let small = name.toLowerCase();
+        console.log(small);
+
+        let username = "оксана";
+        if (name.toLowerCase() == username.toLowerCase()) {
+            console.log(true);
+        }
+            
+        console.log(Math.floor(0.1));
+        console.log(Math.ceil(0.1));
+        console.log(Math.round(0.5));
+        console.log((0.8564286436).toFixed(2));
+
+        function firstUpperCase (name) {
+            let firstLetter = name[0];
+            let firstLetterUpper = firstLetter.toUpperCase();
+            let newName = firstLetterUpper + name.slice(1);
+            console.log(newName);
+        }
+
+        firstUpperCase ('настя');
+
+        const upperText="ВелоСипед" ;
+
+        document.write(upperText.toUpperCase())
+    </script>
+</body>
+</html>
+

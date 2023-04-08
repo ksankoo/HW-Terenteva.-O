@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+
+    <link rel="stylesheet" href="/homework/comments.css">
+    <link rel="stylesheet" href="/homework/normalize.css">
+
+</head>
+<body>
+    <main>
+        <div class="insert-information">
+            <h1>Оставьте ваш комментарий</h1>
+        
+            <div class="name">
+                <h3>Введите ваше ФИО:</h3>
+                <input class="name__text" type="text">
+            </div>
+
+            <div class="avatar">
+                <h3>Введите ссылку на аватар:</h3>
+                <input class="avatar__text" type="text">
+            </div>
+
+            <div class="comment">
+                <h3>Оставьте комментарий</h3>
+                <textarea class="comment__text" cols="100" rows="10"></textarea>
+            </div>
+
+            <button onclick="send()" class="button">Отправить комментарий</button>
+            
+        </div>
+        
+        <h1 class="chat__head">Чат</h1>
+
+        <div class="chat">
+            
+        </div>
+        
+    </main>
+
+    <script src="/homework/comments.js"></script>
+</body>
+</html>
