@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(214, 189, 238);
+    color: rgb(85, 17, 148);
+    padding: 50px 0 0 100px;
+}
+
+#addTask {
+    padding-bottom: 50px;
+}
+
+#taskInput {
+    padding: 10px;
+}
+
+#addTask__button {
+    padding: 10px;
+}
+
+#taskList {
+    height: 350px;
+}
+
+.checkbox {
+    zoom: 2;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    font-size: large;
+    text-align: left;
+}
+
+.taskItem__text {
+    padding-left: 10px;
+}
+
+#clearTasks__button {
+    padding: 10px;
+}
+
